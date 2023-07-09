@@ -1,0 +1,25 @@
+h1 {
+	background-color: #000000;
+	color: #00ffff;
+	text-align: left;
+	font-family: cursive;
+}
+
+h1 span {
+	color: #ffffff;
+}
+
+h2 {
+	background-color: #800080;
+	color: #ffffff;
+	text-align: center;
+	font-family: cursive;
+}
+
+h3 {
+	background-color: #548abf;
+	color: #5c219c;
+	text-decoration: underline;
+	text-align: right;
+	font-family: cursive;
+}
