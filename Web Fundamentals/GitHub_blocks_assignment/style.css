@@ -1,0 +1,44 @@
+body{
+	background-color: rgba(222, 219, 219, 0.647);
+}
+
+header h1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: rgba(12, 12, 49, 0.756);
+}
+
+img.octocat {
+	width: 200px;
+}
+
+.container-1{
+	background-color: #33d3f3;
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-2{
+	background-color: pink;
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.container-3{
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer{
+	text-align: center;
+	font-family: Calibri;
+}

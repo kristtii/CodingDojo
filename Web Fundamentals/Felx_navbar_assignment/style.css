@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(44, 49, 49);
+    height: 50px;
+}
+
+.nav-title{
+    color: white;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-family: cursive;
+    color: white;
+}
+ul.nav-links li{
+    padding-right: 15px;
+}
+
+ul.nav-links li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.707);
+    font-weight: lighter;
+}
+
+ul.nav-links li a.active{
+    font-weight: bold;
+    color: white;
+}
+
+.btn{
+    background-color: rgb(27, 172, 201);
+    color: white;
+    font-family: cursive;
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 3px 3px black;
+}
