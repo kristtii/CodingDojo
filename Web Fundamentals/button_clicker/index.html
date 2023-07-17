@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <nav class="nav-bar d-flex justify-between text-cursive p-l-r-30 align-center m-auto">
+        <h1>Dojonary</h1>
+        <input class="p-5" type="text" name="search" id="search-bar" placeholder="Search">
+        <button class="button background-blue text-white p-5" onclick="changeText(this)">Login</button>
+    </nav>
+    <main>
+        <div class="container d-flex text-cursive m-auto justify-between">
+            <div class="dictionary d-i-block">
+                <div class="card d-flex p-30 align-center">
+                    <div class="word text-center">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="button background-orange p-5" onclick="alert('Ninja was liked')">13
+                            Likes</button>
+                    </div>
+                    <p class="p-l-r-30">A practitioner skilled in the <a href="#">Japanese</a> art of <a
+                            href="#">ninjutsu</a></p>
+                </div>
+                <div class="card d-flex p-30 align-center">
+                    <div class="word text-center">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="button background-orange p-5" onclick="alert('Ninja was liked')">37
+                            Likes</button>
+                    </div>
+                    <p class="p-l-r-30">A <a href="#">programmer</a> who breaks down problems with <a
+                            href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="add-dictionary p-30">
+                <h2>Dojonary is defined by YOU</h2>
+                <button class="button background-green" onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
