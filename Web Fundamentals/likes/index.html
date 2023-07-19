@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <header class="header text-cursive">
+        <nav class="nav m-auto p-10 p-l-r-20">Network</nav>
+        <h1>Your Feed</h1>
+    </header>
+    <div class="main-content m-auto d-flex justify-center">
+        <div class="profile text-cursive">
+            <img src="./assets/user-circle.png" alt="User Picture">
+            <p><a href="#">Add an avatar</a></p>
+            <h2>James Doe</h2>
+        </div>
+        <div class="posts text-cursive">
+            <div class="post">
+                <div class="post-header d-flex justify-between align-center">
+                    <h2>Neil M</h2>
+                    <div class="post-likes d-flex justify-between align-center">
+                        <p class="p-10" id="post-1">9 like(s)</p>
+                        <button class="btn p-10 p-l-r-20" onclick="addLikes()">Like</button>
+                    </div>
+                </div>
+                <p>I just set up this new discord bot, let me know what all you think. <a href="#">link</a></p>
+            </div>
+            <div class="post">
+                <div class="post-header d-flex justify-between align-center">
+                    <h2>Nichole K</h2>
+                    <div class="post-likes d-flex justify-between align-center">
+                        <p class="p-10" id="post-2">12 like(s)</p>
+                        <button class="btn p-10 p-l-r-20" onclick="addLikes2()">Like</button>
+                    </div>
+                </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="post">
+                <div class="post-header d-flex justify-between align-center">
+                    <h2>Jim R</h2>
+                    <div class="post-likes d-flex justify-between align-center">
+                        <p class="p-10" id="post-3">9 like(s)</p>
+                        <button class="btn p-10 p-l-r-20" onclick="addLikes3()">Like</button>
+                    </div>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
