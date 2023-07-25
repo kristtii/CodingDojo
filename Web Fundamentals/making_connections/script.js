@@ -15,17 +15,22 @@ function changeName(currentName) {
 function decreaseRequestsNr() {
     requestsTag = document.getElementById("requestsNr")
     requestsNr = requestsTag.innerHTML
-    requestsNr -= 1
+    requestsNr--
     requestsTag.innerHTML = requestsNr
 }
 
-function acceptRequest(person){
+function acceptRequest(person) {
     decreaseRequestsNr()
+    connectionsTag = document.getElementById("connectionsNr")
+    connectionsNr = connectionsTag.innerHTML
+    connectionsNr++
     person = document.getElementById(person)
     person.remove()
+    connectionsTag.innerHTML = connectionsNr
+
 }
 
-function denyRequest(person){
+function denyRequest(person) {
     decreaseRequestsNr()
     person = document.getElementById(person)
     person.remove()
