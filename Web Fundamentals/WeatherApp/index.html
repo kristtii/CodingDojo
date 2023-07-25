@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar d-flex justify-between align-center font-cursive">
+            <h1>DojoWeather</h1>
+            <ul class="nav-cities d-flex">
+                <li><a href="#">Burbank</a></li>
+                <li><a href="#">Chicago</a></li>
+                <li><a href="#">Dallas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="city d-flex font-cursive align-center justify-between m-auto-20 p-10">
+            <h2>San Jose</h2>
+            <div class="temperature-select d-flex p-10 align-center">
+                <p>show temperature in</p>
+                <select name="temperature" id="temperature">
+                    <option value="farenheit">&deg;F</option>
+                    <option value="celsius">&deg;C</option>
+                </select>
+            </div>
+        </div>
+        <div class="daily-temperature d-flex m-auto-20">
+            <div class="day text-center m-10">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="Rain Day">
+                <p>Some Rain</p>
+                <div class="high-low-temp d-flex justify-evenly">
+                    <p class="high">24&deg;</p>
+                    <p class="low">18&deg;</p>
+                </div>
+            </div>
+            <div class="day text-center m-10">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="Rain Day">
+                <p>Some Rain</p>
+                <div class="high-low-temp d-flex justify-evenly">
+                    <p class="high">24&deg;</p>
+                    <p class="low">18&deg;</p>
+                </div>
+            </div>
+            <div class="day text-center m-10">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="Rain Day">
+                <p>Some Rain</p>
+                <div class="high-low-temp d-flex justify-evenly">
+                    <p class="high">24&deg;</p>
+                    <p class="low">18&deg;</p>
+                </div>
+            </div>
+            <div class="day text-center m-10">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="Rain Day">
+                <p>Some Rain</p>
+                <div class="high-low-temp d-flex justify-evenly">
+                    <p class="high">24&deg;</p>
+                    <p class="low">18&deg;</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="alert d-flex p-10 justify-evenly">
+            <img src="./assets/cookie.png" alt="A cookie for you">
+            <div class="cookie-disclaimer">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                    features and to analyse our traffic. <a href="#">Read mode...</a></p>
+            </div>
+            <button>I Accept</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
