@@ -261,6 +261,24 @@ template {
     border: 2px solid black;
     align-items: center;
     width: 78%;
+    height: 75px;
     bottom: 10px;
     left: 10.16%;
+}
+
+.button {
+    background-color: #4292fb;
+    box-shadow: 3px 3px black;
+}
+
+.high {
+    color: red;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.low {
+    color: rgb(92, 92, 251);
+    font-weight: bolder;
+    font-size: 24px;
 }

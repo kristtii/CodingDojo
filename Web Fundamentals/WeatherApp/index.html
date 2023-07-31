@@ -11,9 +11,9 @@
         <nav class="navbar d-flex justify-between align-center font-cursive">
             <h1>DojoWeather</h1>
             <ul class="nav-cities d-flex">
-                <li><a href="#">Burbank</a></li>
-                <li><a href="#">Chicago</a></li>
-                <li><a href="#">Dallas</a></li>
+                <li><a href="#" onclick="displayAlert(this)">Burbank</a></li>
+                <li><a href="#" onclick="displayAlert(this)">Chicago</a></li>
+                <li><a href="#" onclick="displayAlert(this)">Dallas</a></li>
             </ul>
         </nav>
     </header>
@@ -22,13 +22,13 @@
             <h2>San Jose</h2>
             <div class="temperature-select d-flex p-10 align-center">
                 <p>show temperature in</p>
-                <select name="temperature" id="temperature">
-                    <option value="farenheit">&deg;F</option>
+                <select name="temperature" id="temperature" onchange="changeDegree()">
                     <option value="celsius">&deg;C</option>
+                    <option value="farenheit">&deg;F</option>
                 </select>
             </div>
         </div>
-        <div class="daily-temperature d-flex m-auto-20">
+        <div class="daily-temperature d-flex m-auto-20 font-cursive">
             <div class="day text-center m-10">
                 <h3>Today</h3>
                 <img src="./assets/some_rain.png" alt="Rain Day">
@@ -39,30 +39,30 @@
                 </div>
             </div>
             <div class="day text-center m-10">
-                <h3>Today</h3>
-                <img src="./assets/some_rain.png" alt="Rain Day">
-                <p>Some Rain</p>
+                <h3>Tomorrow</h3>
+                <img src="./assets/some_sun.png" alt="Rain Day">
+                <p>Some Sun</p>
                 <div class="high-low-temp d-flex justify-evenly">
-                    <p class="high">24&deg;</p>
-                    <p class="low">18&deg;</p>
+                    <p class="high">27&deg;</p>
+                    <p class="low">19&deg;</p>
                 </div>
             </div>
             <div class="day text-center m-10">
-                <h3>Today</h3>
-                <img src="./assets/some_rain.png" alt="Rain Day">
-                <p>Some Rain</p>
+                <h3>Friday</h3>
+                <img src="./assets/some_clouds.png" alt="Rain Day">
+                <p>Some Clouds</p>
                 <div class="high-low-temp d-flex justify-evenly">
-                    <p class="high">24&deg;</p>
-                    <p class="low">18&deg;</p>
+                    <p class="high">21&deg;</p>
+                    <p class="low">16&deg;</p>
                 </div>
             </div>
             <div class="day text-center m-10">
-                <h3>Today</h3>
-                <img src="./assets/some_rain.png" alt="Rain Day">
-                <p>Some Rain</p>
+                <h3>Saturday</h3>
+                <img src="./assets/some_sun.png" alt="Rain Day">
+                <p>Some Sun</p>
                 <div class="high-low-temp d-flex justify-evenly">
-                    <p class="high">24&deg;</p>
-                    <p class="low">18&deg;</p>
+                    <p class="high">26&deg;</p>
+                    <p class="low">21&deg;</p>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
                 <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
                     features and to analyse our traffic. <a href="#">Read mode...</a></p>
             </div>
-            <button>I Accept</button>
+            <button class="button" onclick="acceptCookies()">I Accept</button>
         </div>
     </footer>
 
