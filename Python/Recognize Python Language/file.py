@@ -73,11 +73,11 @@ print_hello_x_or_ten_times(4) #prints hello 4 times
 Bonus section
 """
 
-print(num3) # num3 is not defined !!! error
-num3 = 72 # assing num3 = 72 
-fruit[0] = 'cranberry' # tuple cannot be edited !!! Error
-print(person['favorite_team']) # there is no favourite_team in person this is error
-print(pizza_toppings[7]) # out of bounds !!! Error
-print(boolean) # prints true
-fruit.append('raspberry') # Tuple cannot be appended !!! Error
-fruit.pop(1) # tuple cannot be edited !!! Error
+# print(num3) # num3 is not defined !!! error
+# num3 = 72 # assing num3 = 72 
+# fruit[0] = 'cranberry' # tuple cannot be edited !!! Error
+# print(person['favorite_team']) # there is no favourite_team in person this is error
+# print(pizza_toppings[7]) # out of bounds !!! Error
+# print(boolean) # prints true
+# fruit.append('raspberry') # Tuple cannot be appended !!! Error
+# fruit.pop(1) # tuple cannot be edited !!! Error
