@@ -58,7 +58,7 @@ def iterateDictionary2(key_name, some_list):
     for values in some_list:
         for k, value in values.items():
             if k == key_name:
-                print(values[k])
+                print(value)
 
 
 iterateDictionary2("first_name", students)
