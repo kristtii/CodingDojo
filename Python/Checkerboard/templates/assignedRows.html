@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkerboard</title>
+    <style>
+        .cell {
+            background-color: red;
+            height: 50px;
+            width: 50px;
+        }
+        .cell-colored-sthelse{
+            background-color: black;
+            height: 50px;
+            width: 50px;
+        }
+        table{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        {% for num in range(1, x+1) %}
+            {% if num%2==0 %}
+            <tr class="row">
+                {% for num in range(1,y+1) %}
+                    {% if num%2==0 %}
+                        <td class="cell">
+
+                        </td>
+                    {% else %}
+                        <td class="cell-colored-sthelse">
+
+                        </td>
+                    {% endif %}
+                {% endfor %}
+            </tr>
+            {% else %}
+            <tr class="row">
+                {% for num in range(1,y+1) %}
+                    {% if num%2==0 %}
+                        <td class="cell-colored-sthelse">
+
+                        </td>
+                    {% else %}
+                        <td class="cell">
+
+                        </td>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+        </tr>
+
+    </table>
+
+</body>
+</html>
